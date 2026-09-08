@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Pong</title>
+    <style>
+        body {
+            align-items: center;
+            background: #111;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            font-family: sans-serif;
+            margin: 0;
+            min-height: 100vh;
+            padding-top: 24px;
+        }
+
+        #placar {
+            font-size: 28px;
+            margin-bottom: 12px;
+        }
+
+        canvas {
+            border: 2px solid #444;
+            max-height: 90vw;
+            max-width: 90vw;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="placar">0&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;0</div>
+    <canvas id="canvas" width="600" height="600"></canvas>
+
+    <script src="m3.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
